@@ -1,0 +1,13 @@
+{
+  "name": "kalakaar-invoice",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . kalakaar-invoice --platform=win32 --arch=x64 --icon=icon.ico --out=release-build --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-packager": "^17.1.1"
+  }
+}
